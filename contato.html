@@ -19,34 +19,33 @@
             <a href="iptv.html">IPTV</a>
             <a href="contato.html">CONTATO</a>
             <a href="links.html">LINKS</a>
+            <a href="login.html">LOGIN</a>
     </nav>
 </body>
 
-<section>
+<section class="caixa-mensagem">
     <form action="https://formsubmit.co/lcollato@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
 
-    </form>
-    <input type="hidden" name="_next"
-        value="https://github.com/leopoldo-collato/sp5-tecnologia-da-informa--o/obrigado.html">
+        <h1>Envie sua mensagem:</h1>
+        <input type="text" placeholder="Nome Completo" name="name" required>
+        <br><br>
+        <input type="email" name="email" placeholder="e-mail" required>
+        <br><br>
+        <input type="tel" placeholder="Telefone" id="Telefone" name="Telefone" required>
+        <br><br>
+        <select name="Tipo de mensagem" required>
+            <option selected disabled value="">Qual motivo do contato</option>
+            <option value="Dúvida">Dúvida</option>
+            <option value="Informação">Informação</option>
+            <option value="Reclamação">Reclamação</option>
+        </select>
+        <br><br>
+        <textarea required name="mensagem" placeholder="digite aqui sua mensagem" rows="15" cols="35"></textarea>
+        <br>
 
-    <h1>Envie sua mensagem:</h1>
-    <input type="text" placeholder="Nome Completo" name="name" required>
-    <br><br>
-    <input type="email" name="email" placeholder="e-mail" required>
-    <br><br>
-    <input type="tel" placeholder="Telefone" id="Telefone" name="Telefone" required>
-    <br><br>
-    <select name="Tipo de mensagem" required>
-        <option selected disabled value="">Qual motivo do contato</option>
-        <option value="Dúvida">Dúvida</option>
-        <option value="Informação">Informação</option>
-        <option value="Reclamação">Reclamação</option>
-    </select>
-    <br><br>
-    <textarea required name="mensagem" placeholder="digite aqui sua mensagem" rows="15" cols="35"></textarea>
-    <br>
-
-    <button type="submit">Enviar mensagem </button>
+        <button type="submit">Enviar mensagem </button>
 
     </form>
 

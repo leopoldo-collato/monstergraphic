@@ -10,7 +10,7 @@ body {
 .topo {
     background-color: white;
     padding: 10px 10px;
-    text-align: right;
+    text-align: center;
 }
 
 h1 {
@@ -22,7 +22,6 @@ h1 {
 .menu a {
     color: white;
     padding: 14px 15px;
-    float: block;
     font-size: 25px;
     text-decoration: none;
     text-align: right;
@@ -30,6 +29,17 @@ h1 {
 
 .menu {
     background-color: brown;
-    overflow: hidden;
     width: 100%;
+    text-align: right;
+}
+
+.caixa-mensagem {
+    text-align: center;
+    color: black;
+}
+
+.info-contato {
+    text-align: center;
+    color: black;
+
 }
