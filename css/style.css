@@ -1,20 +1,28 @@
 body {
-    background: yellow;
-    background-image: url("/img/fundo_tech.png");
+    background: rgb(92, 92, 91);
+    background-image: url(/img/fundo_tech.png);
+    opacity: 0.9;
     margin: 1, 0;
 }
 
 .topo {
-    background-color: white;
-    padding: 10px 10px;
-    text-align: center;
+    background-color: rgb(162, 155, 155);
+    opacity: 1;
+    padding: 20px 20px;
+    text-align: left;
 }
 
 h1 {
-    color: brown;
-    background-color: white;
     font-style: italic;
     font-size: 40px;
+}
+
+h2 {
+    color: brown;
+    background-color: rgb(162, 155, 155);
+    opacity: 1.9;
+    font-style: oblique font-size: 20px;
+
 }
 
 .menu a {
@@ -31,9 +39,9 @@ h1 {
     text-align: right;
 }
 
-.link a {
+.link {
     color: black;
-    background: yellow;
+    background: brown;
     padding: 5px 30px;
     font-size: 15px;
     text-decoration: none;
@@ -41,14 +49,23 @@ h1 {
 }
 
 .caixa-mensagem {
-    color: black;
-    float: right;
-    width: 10px 15px;
-    padding: 100px;
+    background-color: brown;
+    opacity: 0.9;
+    width: 100%;
+    text-align: center;
 }
 
 .info-contato {
-    text-align: center;
+    text-align: right;
     color: black;
+}
 
+.subtitulo {
+    background-color: white;
+    text-align: center;
+    color: brown;
+}
+
+.video {
+    text-align: center;
 }
