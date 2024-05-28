@@ -39,14 +39,15 @@ body {
     text-align: right;
 }
 
-.link {
-    color: black;
-    background: brown;
-    padding: 5px 30px;
-    font-size: 15px;
-    text-decoration: none;
+.directlink {
+    background-color: aquamarine;
+    width: 300px;
     text-align: center;
+    padding: 2px;
+    font-size: 22px;
+    text-decoration: none;
 }
+
 
 .caixa-mensagem {
     background-color: brown;
