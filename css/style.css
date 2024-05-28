@@ -1,10 +1,7 @@
 body {
     background: yellow;
+    background-image: url("/img/fundo_tech.png");
     margin: 1, 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .topo {
@@ -14,7 +11,8 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: brown;
+    background-color: white;
     font-style: italic;
     font-size: 40px;
 }
@@ -33,9 +31,20 @@ h1 {
     text-align: right;
 }
 
-.caixa-mensagem {
-    text-align: center;
+.link a {
     color: black;
+    background: yellow;
+    padding: 5px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.caixa-mensagem {
+    color: black;
+    float: right;
+    width: 10px 15px;
+    padding: 100px;
 }
 
 .info-contato {
