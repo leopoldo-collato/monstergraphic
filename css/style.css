@@ -19,9 +19,8 @@ body {
 .h2 {
     color: brown;
     background-color: rgb(162, 155, 155);
-    opacity: 1.9;
-    font-style: oblique font-size 20px;
-
+    font-style: oblique;
+    font-size: 20px;
 }
 
 .menu a {
@@ -57,7 +56,7 @@ body {
 
 .info-contato {
     font-size: 25px;
-    text-align: center;
+    text-align: right;
     color: aquamarine;
 }
 
