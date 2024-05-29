@@ -28,17 +28,21 @@
 <section class="caixa-mensagem">
     <form action="https://formsubmit.co/lcollato@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://leopoldo-collato.github.io/monstergrafic/obrigado.html">
+        <input type="hidden" name="obrigado" value="https://leopoldo-collato.github.io/monstergrafic/contato.html">
 
         <section class="subtitulo">
             <h1>ENVIE SUA MENSAGEM</h1>
         </section>
-        <input type="text" placeholder="Nome Completo" name="name" required>
+
+        <input type="text" placeholder="Nome Completo" name="nome" required>
         <br><br>
+
         <input type="email" name="email" placeholder="e-mail" required>
         <br><br>
+
         <input type="tel" placeholder="Telefone" id="Telefone" name="Telefone" required>
         <br><br>
+
         <select name="Tipo de mensagem" required>
             <option selected disabled value="">Qual motivo do contato</option>
             <option value="Dúvida">Dúvida</option>
@@ -46,7 +50,8 @@
             <option value="Reclamação">Reclamação</option>
         </select>
         <br><br>
-        <textarea required name="mensagem" placeholder="digite aqui sua mensagem" rows="60" cols="35"></textarea>
+
+        <textarea required name="mensagem" placeholder="digite aqui sua mensagem" rows="15" cols="70"></textarea>
         <br>
 
         <button type="submit">Enviar mensagem </button>
