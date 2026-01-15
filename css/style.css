@@ -60,8 +60,8 @@ body {
     text-align: center;
     border-radius: 40px;
     margin: auto;
-    padding: 15px;
-    font-size: 22px;
+    padding: 5px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -86,9 +86,9 @@ body {
 }
 
 .subtitulo {
-    background-color: rgb(96, 67, 145);
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    color: rgb(249, 247, 247);
+    color: rgb(243, 41, 41);
 }
 
 .video {
