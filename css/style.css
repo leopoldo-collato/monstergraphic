@@ -67,7 +67,6 @@ body {
 .caixa-mensagem {
     background-color: rgb(0, 0, 0);
     position: relative;
-    text-align: right;
     left: 100px;
 }
 
