@@ -66,9 +66,11 @@ body {
 
 .caixa-mensagem {
     background-color: rgb(0, 0, 0);
-    position: relative;
-    left: 50px;
-    right: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 2px;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .info-contato {
