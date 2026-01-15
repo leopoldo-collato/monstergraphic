@@ -86,3 +86,12 @@ body {
 .video {
     text-align: center;
 }
+
+.login-container {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 50px;
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
