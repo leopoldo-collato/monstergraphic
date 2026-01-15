@@ -5,7 +5,7 @@ body {
 }
 
 .topo {
-    background-color: rgb(162, 155, 155);
+    background-color: rgba(162, 155, 155, 0.603);
     opacity: 1;
     padding: 20px 20px;
     text-align: center;
