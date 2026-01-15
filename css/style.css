@@ -65,10 +65,15 @@ body {
 
 
 .caixa-mensagem {
-    background-color: rgba(114, 114, 114, 0.77);
+    background-color: #797977e7;
+    border-color: black;
+    padding: 70px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
     text-align: center;
-    font-size: 10px;
-    text-decoration: none;
+    display: block;
+    margin:auto;
 }
 
 .info-contato {
