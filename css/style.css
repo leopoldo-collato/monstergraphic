@@ -84,9 +84,9 @@ body {
 }
 
 .subtitulo {
-    background-color: white;
+    background-color: rgb(96, 67, 145);
     text-align: center;
-    color: brown;
+    color: rgb(249, 247, 247);
 }
 
 .video {
