@@ -89,9 +89,9 @@ body {
 
 .login-container {
     background-color: #fff;
-    padding: 80px;
+    padding: 20px;
     border-radius: 50px;
     box-shadow: 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
