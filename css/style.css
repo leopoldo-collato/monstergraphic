@@ -37,6 +37,12 @@ body {
     text-align: left;
 }
 
+.projetos {
+    background-color: black;
+    width: 90%;
+    text-align: left;
+}
+
 .directlink {
     background-color: aquamarine;
     width: 300px;
