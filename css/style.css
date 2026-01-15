@@ -66,10 +66,10 @@ body {
 
 .caixa-mensagem {
     background-color: rgb(0, 0, 0);
-    padding: 66px;
+    padding: 66px 15px;
     opacity: 0.9;
     width: 30%;
-    align: left;
+    text-align: center;
 }
 
 .info-contato {
