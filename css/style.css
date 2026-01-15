@@ -24,8 +24,8 @@ body {
 }
 
 .h3 {
-    color: brown;
-    background-color: rgb(162, 155, 155);
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 4, 4);
     font-style: gotic;
     font-size: 20px;
 }
