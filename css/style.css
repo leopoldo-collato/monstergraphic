@@ -23,6 +23,13 @@ body {
     font-size: 20px;
 }
 
+.h3 {
+    color: brown;
+    background-color: rgb(162, 155, 155);
+    font-style: oblique;
+    font-size: 7px;
+}
+
 .menu a {
     color: white;
     padding: 14px 15px;
