@@ -81,8 +81,10 @@ body {
 
 .info-contato {
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     color: aquamarine;
+    border-radius: 40px;
+    margin: auto;
 }
 
 .subtitulo {
